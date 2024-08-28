@@ -38,6 +38,7 @@ export default [
         inject: true,
         extract: false,
         minimize: true,
+        modules: false,
       }),
     ],
     external: ["react", "react-dom", "react/jsx-runtime"],
