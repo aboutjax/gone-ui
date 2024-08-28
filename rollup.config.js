@@ -32,7 +32,7 @@ export default [
       }),
       postcss({
         config: {
-          path: "./postcss.config.js",
+          path: "./postcss.config.mjs",
         },
         extensions: [".css"],
         inject: true,
