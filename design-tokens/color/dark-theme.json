@@ -1,0 +1,66 @@
+{
+  "color": {
+    "layer-01": {
+      "value": "{color.slate.950}",
+      "type": "color",
+      "category": "output"
+    },
+    "layer-02": {
+      "value": "{color.slate.900}",
+      "type": "color",
+      "category": "output"
+    },
+    "layer-03": {
+      "value": "{color.slate.800}",
+      "type": "color",
+      "category": "output"
+    },
+    "content": {
+      "primary": {
+        "value": "{color.white}",
+        "type": "color",
+        "category": "output"
+      },
+      "secondary": {
+        "value": "{color.slate.300}",
+        "type": "color",
+        "category": "output"
+      },
+      "disabled": {
+        "value": "{color.slate.500}",
+        "type": "color",
+        "category": "output"
+      }
+    },
+    "primary": {
+      "value": "{color.green.100}",
+      "type": "color",
+      "category": "output"
+    },
+    "primaryContrast": {
+      "value": "{color.green.950}",
+      "type": "color",
+      "category": "output"
+    },
+    "secondary": {
+      "value": "{color.slate.800}",
+      "type": "color",
+      "category": "output"
+    },
+    "secondaryContrast": {
+      "value": "{color.slate.50}",
+      "type": "color",
+      "category": "output"
+    },
+    "divider": {
+      "value": "{color.slate.800}",
+      "type": "color",
+      "category": "output"
+    },
+    "dividerSubtle": {
+      "value": "{color.slate.900}",
+      "type": "color",
+      "category": "output"
+    }
+  }
+}

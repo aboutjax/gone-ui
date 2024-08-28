@@ -1,0 +1,18 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.light-theme {
+  --color-layer-01: 248 250 252;
+  --color-layer-02: 255 255 255;
+  --color-layer-03: 248 250 252;
+  --color-content-primary: 0 0 0;
+  --color-content-secondary: 71 85 105;
+  --color-content-disabled: 203 213 225;
+  --color-primary: 22 101 52;
+  --color-primary-contrast: 240 253 244;
+  --color-secondary: 203 213 225;
+  --color-secondary-contrast: 2 6 23;
+  --color-divider: 203 213 225;
+  --color-divider-subtle: 226 232 240;
+}

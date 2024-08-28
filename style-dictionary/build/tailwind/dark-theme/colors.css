@@ -1,0 +1,18 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+.dark-theme {
+  --color-layer-01: 2 6 23;
+  --color-layer-02: 15 23 42;
+  --color-layer-03: 30 41 59;
+  --color-content-primary: 255 255 255;
+  --color-content-secondary: 203 213 225;
+  --color-content-disabled: 100 116 139;
+  --color-primary: 220 252 231;
+  --color-primary-contrast: 5 46 22;
+  --color-secondary: 30 41 59;
+  --color-secondary-contrast: 248 250 252;
+  --color-divider: 30 41 59;
+  --color-divider-subtle: 15 23 42;
+}

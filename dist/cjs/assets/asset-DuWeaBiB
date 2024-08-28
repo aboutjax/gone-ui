@@ -1,0 +1,5 @@
+var css_248z = "@import \"../style-dictionary/build/tailwind/light-theme/colors.css\";\n@import \"../style-dictionary/build/tailwind/dark-theme/colors.css\";\n\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n";
+export default css_248z;
+export var stylesheet="@import \"../style-dictionary/build/tailwind/light-theme/colors.css\";\n@import \"../style-dictionary/build/tailwind/dark-theme/colors.css\";\n\n@tailwind base;\n@tailwind components;\n@tailwind utilities;\n";
+import styleInject from '/Users/cheweilee/Github/rollup-test/node_modules/style-inject/dist/style-inject.es.js';
+styleInject(css_248z);

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="color_layer_01">#ff020617</color>
+  <color name="color_layer_02">#ff0f172a</color>
+  <color name="color_layer_03">#ff1e293b</color>
+  <color name="color_content_primary">#ffffffff</color>
+  <color name="color_content_secondary">#ffcbd5e1</color>
+  <color name="color_content_disabled">#ff64748b</color>
+  <color name="color_primary">#ffdcfce7</color>
+  <color name="color_primary_contrast">#ff052e16</color>
+  <color name="color_secondary">#ff1e293b</color>
+  <color name="color_secondary_contrast">#fff8fafc</color>
+  <color name="color_divider">#ff1e293b</color>
+  <color name="color_divider_subtle">#ff0f172a</color>
+</resources>
