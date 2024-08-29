@@ -49,4 +49,14 @@ export default [
     plugins: [dts()],
     external: [/\.css$/],
   },
+  {
+    input: "src/output.css",
+    output: [{ file: "dist/index.css", format: "es" }],
+    plugins: [
+      postcss({
+        extract: true,
+        minimize: true,
+      }),
+    ],
+  },
 ];
