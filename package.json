@@ -15,7 +15,7 @@
     "build-storybook": "storybook build",
     "build": "rollup -c",
     "build-styles": "node style-dictionary/build.js",
-    "tailwind": "tailwindcss -i src/styles.css -o src/output.css --watch"
+    "tailwind": "tailwindcss -i src/styles.css -o src/tailwind-generated.css --watch"
   },
   "author": "",
   "license": "ISC",

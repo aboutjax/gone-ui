@@ -30,16 +30,7 @@ export default [
         tsconfig: "./tsconfig.json",
         exclude: ["**/*.test.tsx", "**/*.test.ts", "**/*.stories.ts"],
       }),
-      postcss({
-        config: {
-          path: "./postcss.config.mjs",
-        },
-        extensions: [".css"],
-        inject: true,
-        extract: false,
-        minimize: true,
-        modules: false,
-      }),
+      postcss()
     ],
     external: ["react", "react-dom", "react/jsx-runtime"],
   },
@@ -50,7 +41,7 @@ export default [
     external: [/\.css$/],
   },
   {
-    input: "src/output.css",
+    input: "src/tailwind-generated.css",
     output: [{ file: "dist/index.css", format: "es" }],
     plugins: [
       postcss({

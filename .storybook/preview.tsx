@@ -1,7 +1,7 @@
 import React from "react";
 import type { Preview } from "@storybook/react";
 import { withThemeByClassName } from "@storybook/addon-themes";
-import "../src/output.css";
+import "../src/tailwind-generated.css";
 
 const preview: Preview = {
   parameters: {
