@@ -15,10 +15,22 @@ export default {
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         secondaryContrast:
           "rgb(var(--color-secondary-contrast) / <alpha-value>)",
+        danger: "rgb(var(--color-danger) / <alpha-value>)",
+        dangerContrast: "rgb(var(--color-danger-contrast) / <alpha-value>)",
+        success: "rgb(var(--color-success) / <alpha-value>)",
+        successContrast: "rgb(var(--color-success-contrast) / <alpha-value>)",
+        warning: "rgb(var(--color-warning) / <alpha-value>)",
+        warningContrast: "rgb(var(--color-warning-contrast) / <alpha-value>)",
         divider: "rgb(var(--color-divider) / <alpha-value>)",
         dividerSubtle: "rgb(var(--color-divider-subtle) / <alpha-value>)",
+        dividerDarkOnly: "rgb(var(--color-divider-dark-only) / <alpha-value>)",
+        strava: "rgb(var(--color-strava) / <alpha-value>)",
+        stravaContrast: "rgb(var(--color-strava-contrast) / <alpha-value>)",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("tailwindcss-react-aria-components"),
+  ],
 };

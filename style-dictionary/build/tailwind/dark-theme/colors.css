@@ -6,13 +6,22 @@
   --color-layer-01: 2 6 23;
   --color-layer-02: 15 23 42;
   --color-layer-03: 30 41 59;
-  --color-content-primary: 255 255 255;
-  --color-content-secondary: 203 213 225;
-  --color-content-disabled: 100 116 139;
+  --color-content-primary: 148 163 184;
+  --color-content-secondary: 100 116 139;
+  --color-content-disabled: 71 85 105;
   --color-primary: 220 252 231;
   --color-primary-contrast: 5 46 22;
   --color-secondary: 30 41 59;
   --color-secondary-contrast: 248 250 252;
+  --color-danger: 220 38 38;
+  --color-danger-contrast: 254 242 242;
+  --color-success: 22 163 74;
+  --color-success-contrast: 240 253 244;
+  --color-warning: 217 119 6;
+  --color-warning-contrast: 255 251 235;
   --color-divider: 30 41 59;
   --color-divider-subtle: 15 23 42;
+  --color-divider-dark-only: 30 41 59;
+  --color-strava: 217 119 6;
+  --color-strava-contrast: 255 251 235;
 }

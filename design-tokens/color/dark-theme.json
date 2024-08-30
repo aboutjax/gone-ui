@@ -17,17 +17,17 @@
     },
     "content": {
       "primary": {
-        "value": "{color.white}",
+        "value": "{color.slate.400}",
         "type": "color",
         "category": "output"
       },
       "secondary": {
-        "value": "{color.slate.300}",
+        "value": "{color.slate.500}",
         "type": "color",
         "category": "output"
       },
       "disabled": {
-        "value": "{color.slate.500}",
+        "value": "{color.slate.600}",
         "type": "color",
         "category": "output"
       }
@@ -52,6 +52,36 @@
       "type": "color",
       "category": "output"
     },
+    "danger": {
+      "value": "{color.red.600}",
+      "type": "color",
+      "category": "output"
+    },
+    "dangerContrast": {
+      "value": "{color.red.50}",
+      "type": "color",
+      "category": "output"
+    },
+    "success": {
+      "value": "{color.green.600}",
+      "type": "color",
+      "category": "output"
+    },
+    "successContrast": {
+      "value": "{color.green.50}",
+      "type": "color",
+      "category": "output"
+    },
+    "warning": {
+      "value": "{color.amber.600}",
+      "type": "color",
+      "category": "output"
+    },
+    "warningContrast": {
+      "value": "{color.amber.50}",
+      "type": "color",
+      "category": "output"
+    },
     "divider": {
       "value": "{color.slate.800}",
       "type": "color",
@@ -59,6 +89,21 @@
     },
     "dividerSubtle": {
       "value": "{color.slate.900}",
+      "type": "color",
+      "category": "output"
+    },
+    "dividerDarkOnly": {
+      "value": "{color.slate.800}",
+      "type": "color",
+      "category": "output"
+    },
+    "strava": {
+      "value": "{color.amber.600}",
+      "type": "color",
+      "category": "output"
+    },
+    "stravaContrast": {
+      "value": "{color.amber.50}",
       "type": "color",
       "category": "output"
     }

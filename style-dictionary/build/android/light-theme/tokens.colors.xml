@@ -14,6 +14,15 @@
   <color name="color_primary_contrast">#fff0fdf4</color>
   <color name="color_secondary">#ffcbd5e1</color>
   <color name="color_secondary_contrast">#ff020617</color>
+  <color name="color_danger">#ffdc2626</color>
+  <color name="color_danger_contrast">#fffef2f2</color>
+  <color name="color_success">#ff16a34a</color>
+  <color name="color_success_contrast">#fff0fdf4</color>
+  <color name="color_warning">#ffd97706</color>
+  <color name="color_warning_contrast">#fffffbeb</color>
   <color name="color_divider">#ffcbd5e1</color>
   <color name="color_divider_subtle">#ffe2e8f0</color>
+  <color name="color_divider_dark_only">#fff8fafc</color>
+  <color name="color_strava">#ffd97706</color>
+  <color name="color_strava_contrast">#fffffbeb</color>
 </resources>

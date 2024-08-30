@@ -13,6 +13,15 @@
   --color-primary-contrast: #f0fdf4;
   --color-secondary: #cbd5e1;
   --color-secondary-contrast: #020617;
+  --color-danger: #dc2626;
+  --color-danger-contrast: #fef2f2;
+  --color-success: #16a34a;
+  --color-success-contrast: #f0fdf4;
+  --color-warning: #d97706;
+  --color-warning-contrast: #fffbeb;
   --color-divider: #cbd5e1;
   --color-divider-subtle: #e2e8f0;
+  --color-divider-dark-only: #f8fafc;
+  --color-strava: #d97706;
+  --color-strava-contrast: #fffbeb;
 }
