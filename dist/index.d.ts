@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ButtonProps, DialogProps, ModalOverlayProps } from 'react-aria-components';
+export * from 'react-aria-components';
 
 interface ButtonVariantsProps extends ButtonProps {
     iconOnly?: boolean;
