@@ -30,7 +30,7 @@ export default [
         tsconfig: "./tsconfig.json",
         exclude: ["**/*.test.tsx", "**/*.test.ts", "**/*.stories.ts"],
       }),
-      postcss()
+      postcss(),
     ],
     external: ["react", "react-dom", "react/jsx-runtime"],
   },
