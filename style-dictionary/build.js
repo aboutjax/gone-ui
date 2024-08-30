@@ -66,12 +66,38 @@ function getStyleDictionaryConfig(theme) {
         ],
       },
       ios: {
-        transformGroup: "ios",
+        transformGroup: "ios-swift",
         buildPath: `style-dictionary/build/ios/${theme}/`,
         files: [
           {
-            destination: "tokens.h",
-            format: "ios/macros",
+            destination: "StyleDictionary+Class.swift",
+            format: "ios-swift/class.swift",
+            options: {
+              className: "StyleDictionaryClass",
+            },
+            filter: {
+              category: "output",
+            },
+          },
+          {
+            destination: "StyleDictionary+Enum.swift",
+            format: "ios-swift/enum.swift",
+            options: {
+              className: "StyleDictionaryEnum",
+            },
+            filter: {
+              category: "output",
+            },
+          },
+          {
+            destination: "StyleDictionary+Struct.swift",
+            format: "ios-swift/any.swift",
+            options: {
+              className: "StyleDictionaryStruct",
+              imports: "SwiftUI",
+              objectType: "struct",
+              accessControl: "internal",
+            },
             filter: {
               category: "output",
             },
